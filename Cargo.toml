@@ -1,0 +1,15 @@
+[package]
+name = "hsl-bicycle-fetcher"
+version = "0.1.0"
+authors = ["Henri Nurmi <henri.nurmi@kapsi.fi>"]
+
+[dependencies]
+influent = "0.4.1"
+geohash = "0.6.0"
+reqwest = "0.8.5"
+serde = "1.0"
+serde_derive = "1.0"
+cached = "0.5.0"
+lazy_static = "1.0.0"
+log = { version = "0.4", features = ["max_level_debug", "release_max_level_warn"] }
+env_logger = "0.5.10"
